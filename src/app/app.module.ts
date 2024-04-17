@@ -6,9 +6,11 @@ import {
 
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
+import { AccountComponent } from './account/account.component';
+import { NewAccountComponent } from './new-account/new-account.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, AccountComponent, NewAccountComponent],
   imports: [BrowserModule, FormsModule],
   providers: [provideClientHydration()],
   bootstrap: [AppComponent],
